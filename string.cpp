@@ -8,3 +8,15 @@ int main() {
     cout << name << '\n'; // Prints the full line
     return 0;
 }
+// reverse string
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+int main() {
+    char a[100];
+    cin >> a;
+    strrev(a);
+    cout << a << endl;
+    return 0;
+}
